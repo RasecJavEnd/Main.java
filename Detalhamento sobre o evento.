@@ -1,7 +1,7 @@
 Sistema de Eventos em Java
 
 📌 Visão Geral
-Este projeto é um **sistema de gerenciamento de eventos** desenvolvido em Java. Ele permite que usuários cadastrem eventos, confirmem participação, visualizem eventos futuros, em andamento ou já ocorridos, e gerenciem suas inscrições.  
+Este projeto é um sistema de gerenciamento de eventos** desenvolvido em Java. Ele permite que usuários cadastrem eventos, confirmem participação, visualizem eventos futuros, em andamento ou já ocorridos, e gerenciem suas inscrições.  
 O sistema também salva os dados em arquivo (`events.data`), garantindo persistência entre execuções.
 
 
@@ -22,7 +22,7 @@ O sistema também salva os dados em arquivo (`events.data`), garantindo persist�
   - Próximos eventos
   - Eventos ocorrendo agora
   - Eventos já encerrados
-  - Persistência de Dados**:
+  - Persistência de Dados:
   - Eventos são salvos em arquivo (`events.data`)
   - Ao iniciar o programa, os eventos cadastrados previamente são carregados
 
@@ -72,7 +72,7 @@ Classe de entrada do programa, responsável por iniciar o sistema.
 
  💡 Destaques Técnicos
  Uso de coleções Java (`List`, `Set`) para armazenar eventos e participantes.
- Manipulação de datas e horários** com `LocalDateTime` e `DateTimeFormatter`.
+ Manipulação de datas e horários com `LocalDateTime` e `DateTimeFormatter`.
  Persistência simples com arquivos de texto** (`BufferedReader`, `BufferedWriter`).
  Estrutura modular e orientada a objetos, facilitando manutenção e expansão futura.
 
